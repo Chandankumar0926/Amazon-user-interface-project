@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Sign In</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      width: 350px;
+      margin: 80px auto;
+      padding: 25px 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      text-align: left;
+    }
+    .amazon-logo {
+      display: block;
+      margin: 20px auto;
+    }
+    h2 {
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #a6a6a6;
+      border-radius: 3px;
+      margin-bottom: 15px;
+    }
+    .continue-btn {
+      width: 100%;
+      padding: 10px;
+      background-color: #ffd814;
+      border: 1px solid #fcd200;
+      border-radius: 3px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .text-link {
+      font-size: 14px;
+      margin-top: 15px;
+    }
+    .text-link a {
+      color: #0066c0;
+      text-decoration: none;
+    }
+    .footer {
+      margin-top: 100px;
+      font-size: 12px;
+      color: #555;
+    }
+    .footer a {
+      margin: 0 10px;
+      color: #0066c0;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <img class="amazon-logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" width="100" alt="Amazon Logo">
+
+  <div class="container">
+    <h2>Sign in or create account</h2>
+    <form>
+      <label for="email">Enter mobile number or email</label>
+      <input type="text" id="email" name="email" required>
+      <button type="submit" class="continue-btn">Continue</button>
+    </form>
+    <p class="text-link">
+      By continuing, you agree to Amazon's
+      <a href="#">Conditions of Use</a> and
+      <a href="#">Privacy Notice</a>.
+    </p>
+    <p class="text-link"><strong>Buying for work?</strong><br>
+      <a href="#">Shop on Amazon Business</a>
+    </p>
+  </div>
+
+  <div class="footer">
+    <a href="#">Conditions of Use</a> |
+    <a href="#">Privacy Notice</a> |
+    <a href="#">Help</a><br><br>
+    © 1996–2025, Amazon.com, Inc. or its affiliates
+  </div>
+
+</body>
+</html>
